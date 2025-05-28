@@ -1,30 +1,48 @@
 # depslib dependency file v1.0
-1748455189 source:c:\users\antho\onedrive\documents\examenfn\prototipoefp12025\proyectfn\main.cpp
-	<iostream>
+1748456036 source:c:\users\antho\onedrive\documents\examenfn\prototipoefp12025\proyectfn\main.cpp
+	"usuario.h"
+	"menu.h"
 
-1748455189 source:c:\users\antho\onedrive\documents\examenfn\prototipoefp12025\proyectfn\src\habitacion.cpp
+1748456467 source:c:\users\antho\onedrive\documents\examenfn\prototipoefp12025\proyectfn\src\habitacion.cpp
 	"habitacion.h"
 	"seguridad.h"
 
-1748455189 c:\users\antho\onedrive\documents\examenfn\prototipoefp12025\proyectfn\include\habitacion.h
+1748455501 c:\users\antho\onedrive\documents\examenfn\prototipoefp12025\proyectfn\include\habitacion.h
 	<iostream>
 	<fstream>
 	<cstring>
 
-1748455189 c:\users\antho\onedrive\documents\examenfn\prototipoefp12025\proyectfn\include\seguridad.h
+1748455501 c:\users\antho\onedrive\documents\examenfn\prototipoefp12025\proyectfn\include\seguridad.h
 	<iostream>
 	<fstream>
 	<ctime>
 	<cstring>
 
-1748455189 source:c:\users\antho\onedrive\documents\examenfn\prototipoefp12025\proyectfn\src\seguridad.cpp
+1748456467 source:c:\users\antho\onedrive\documents\examenfn\prototipoefp12025\proyectfn\src\seguridad.cpp
 	"seguridad.h"
 
-1748455189 source:c:\users\antho\onedrive\documents\examenfn\prototipoefp12025\proyectfn\src\usuario.cpp
+1748456352 source:c:\users\antho\onedrive\documents\examenfn\prototipoefp12025\proyectfn\src\usuario.cpp
 	"usuario.h"
+	<filesystem>
 
-1748455189 c:\users\antho\onedrive\documents\examenfn\prototipoefp12025\proyectfn\include\usuario.h
+1748456056 c:\users\antho\onedrive\documents\examenfn\prototipoefp12025\proyectfn\include\usuario.h
 	<iostream>
 	<fstream>
 	<cstring>
+
+1748456897 source:c:\users\antho\onedrive\documents\examenfn\prototipoefp12025\proyectfn\src\informes.cpp
+	<fstream>
+	<iostream>
+	"habitacion.h"
+
+1748456751 source:c:\users\antho\onedrive\documents\examenfn\prototipoefp12025\proyectfn\src\menu.cpp
+	"menu.h"
+	"habitacion.h"
+	"informes.h"
+	"seguridad.h"
+
+1748455802 c:\users\antho\onedrive\documents\examenfn\prototipoefp12025\proyectfn\include\menu.h
+	"usuario.h"
+
+1748455526 c:\users\antho\onedrive\documents\examenfn\prototipoefp12025\proyectfn\include\informes.h
 

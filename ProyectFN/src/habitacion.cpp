@@ -9,7 +9,7 @@ void altaHabitacion(const char* usuario) {
     cout << "Precio: "; cin >> h.precio;
     h.estatus = 'A';
 
-    ofstream archivo("data/habitaciones.dat", ios::binary | ios::app);
+    ofstream archivo("habitaciones.dat", ios::binary | ios::app);
     archivo.write(reinterpret_cast<char*>(&h), sizeof(Habitacion));
     archivo.close();
 
@@ -20,7 +20,7 @@ void bajaHabitacion(const char* usuario) {
     char id[15];
     cout << "ID de la habitacion a eliminar: "; cin >> id;
     Habitacion h;
-    fstream archivo("data/habitaciones.dat", ios::in | ios::out | ios::binary);
+    fstream archivo("habitaciones.dat", ios::in | ios::out | ios::binary);
 
     while (archivo.read(reinterpret_cast<char*>(&h), sizeof(Habitacion))) {
         if (strcmp(h.idHabitacion, id) == 0) {
@@ -38,7 +38,7 @@ void modificarHabitacion(const char* usuario) {
     char id[15];
     cout << "ID de la habitacion a modificar: "; cin >> id;
     Habitacion h;
-    fstream archivo("data/habitaciones.dat", ios::in | ios::out | ios::binary);
+    fstream archivo("habitaciones.dat", ios::in | ios::out | ios::binary);
 
     while (archivo.read(reinterpret_cast<char*>(&h), sizeof(Habitacion))) {
         if (strcmp(h.idHabitacion, id) == 0) {
@@ -56,7 +56,7 @@ void modificarHabitacion(const char* usuario) {
 
 void consultarHabitaciones(const char* usuario) {
     Habitacion h;
-    ifstream archivo("data/habitaciones.dat", ios::binary);
+    ifstream archivo("habitaciones.dat", ios::binary);
     while (archivo.read(reinterpret_cast<char*>(&h), sizeof(Habitacion))) {
         cout << "ID: " << h.idHabitacion << ", TipoHab: " << h.idTipoHabitacion
              << ", TipoCama: " << h.idTipoCama << ", Precio: " << h.precio

@@ -1,0 +1,1 @@
+ID: 1, TipoHab: Grande, TipoCama: Medio, Precio: 200, Estatus: A

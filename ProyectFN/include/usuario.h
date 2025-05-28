@@ -14,5 +14,6 @@ struct Usuario {
 };
 
 bool autenticarUsuario(Usuario &usuario);
+void registrarUsuario();
 
 #endif
