@@ -1,0 +1,30 @@
+# depslib dependency file v1.0
+1748455189 source:c:\users\antho\onedrive\documents\examenfn\prototipoefp12025\proyectfn\main.cpp
+	<iostream>
+
+1748455189 source:c:\users\antho\onedrive\documents\examenfn\prototipoefp12025\proyectfn\src\habitacion.cpp
+	"habitacion.h"
+	"seguridad.h"
+
+1748455189 c:\users\antho\onedrive\documents\examenfn\prototipoefp12025\proyectfn\include\habitacion.h
+	<iostream>
+	<fstream>
+	<cstring>
+
+1748455189 c:\users\antho\onedrive\documents\examenfn\prototipoefp12025\proyectfn\include\seguridad.h
+	<iostream>
+	<fstream>
+	<ctime>
+	<cstring>
+
+1748455189 source:c:\users\antho\onedrive\documents\examenfn\prototipoefp12025\proyectfn\src\seguridad.cpp
+	"seguridad.h"
+
+1748455189 source:c:\users\antho\onedrive\documents\examenfn\prototipoefp12025\proyectfn\src\usuario.cpp
+	"usuario.h"
+
+1748455189 c:\users\antho\onedrive\documents\examenfn\prototipoefp12025\proyectfn\include\usuario.h
+	<iostream>
+	<fstream>
+	<cstring>
+
